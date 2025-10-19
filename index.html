@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.js"></script>
+
+<link rel="stylesheet" href="./src/css/styles.css">
+<title>Document</title>
+</head>
+<body>
+    <!-- announcement -->
+     
+    <div class="announcement">
+        <a href="">
+            <p>FREE SHIPPING ON ALL ORDERS ABOVE <strong>3500</strong> </p>
+            
+        </a>
+
+    </div>
+    <!-- navbar1 -->
+  <!-- ====== Minimal Navbar (Like Kross Kulture Style) ====== -->
+<!-- ====== Minimal Navbar (Like Kross Kulture Style) ====== -->
+<nav class="navbar bg-white border-bottom py-3">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+
+    <!-- Logo -->
+   <a class="navbar-brand fw-bold mx-3 text-center" 
+   style="font-family: 'Times New Roman', serif; 
+          letter-spacing: 4px; 
+          font-size: 32px; 
+          color: #000;">
+  ALZA&nbsp;HMZA
+</a>
+
+
+   <!-- Search Bar -->
+<form class="d-flex mx-auto position-relative" style="width: 40%;" role="search">
+  <input class="form-control border rounded px-4" 
+         type="search" placeholder="Search for products" aria-label="Search"
+         style="border-radius: 8px;"> <!-- Soft rounded corners -->
+  <button class="btn position-absolute border-0 bg-transparent" 
+          type="submit" style="right: 10px; top: 50%; transform: translateY(-50%);">
+    <i class="bi bi-search"></i>
+  </button>
+</form>
+
+    <!-- Icons -->
+    <div class="d-flex align-items-center me-3">
+      <a href="/src/pages/signin/login.html" class="text-dark me-3 fs-5"><i class="bi bi-person"></i></a>
+      <a href="#" class="text-dark fs-5 position-relative">
+        <i class="bi bi-bag"></i>
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">0</span>
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+ <!-- ====== Secondary Navbar (Category Menu) ====== -->
+<nav class="navbar navbar-expand-lg bg-white border-top border-bottom py-2">
+  <div class="container justify-content-center">
+
+    <ul class="navbar-nav text-uppercase fw-semibold" style="font-size: 13px; letter-spacing: 1px;">
+      <li class="nav-item mx-3">
+        <a class="nav-link text-danger" href="#">Home</a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-dark" href="#">New In</a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-dark" href="#">Rozmara Winter Vol. I</a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-dark" href="/src/pages/contact/about.html">About</a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-dark" href="#">Luxury Pret</a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-dark" href="#">Rozmara RTW</a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-dark" href="#">Kids</a>
+      </li>
+      <li class="nav-item mx-3">
+        <a class="nav-link text-dark" href="/src/pages/contact/contact.html">Contacts</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+<!-- Optional hover style -->
+<style>
+.nav-link {
+  transition: color 0.2s ease;
+}
+.nav-link:hover {
+  color: #a00 !important; /* Dark red hover */
+}
+</style>
+
+<!-- crousel -->
+ 
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/imgs/banner1.webp" class="d-block w-100" alt="Banner 1">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/imgs/banner2.webp" class="d-block w-100" alt="Banner 2">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/imgs/banner3.webp" class="d-block w-100" alt="Banner 3">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/imgs/banner4.webp" class="d-block w-100" alt="Banner 4">
+    </div>
+    <div class="carousel-item">
+      <img src="/assets/imgs/banner5.webp" class="d-block w-100" alt="Banner 5">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- section  1-->
+<!-- Tailwind CDN (remove if already included) -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<section class="max-w-7xl mx-auto px-6 py-16 relative">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+    <!-- 🖋️ Left Text -->
+    <div>
+      <h2 class="text-4xl font-extrabold text-gray-900 mb-5">SHOP BY CATEGORY</h2>
+      <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+        From everyday essentials to statement pieces, find the perfect look in every category.
+      </p>
+      <a href="#"
+         class="inline-block bg-black text-white text-lg font-semibold px-8 py-3 rounded-lg shadow-md hover:bg-gray-800 transition-all">
+        View All Collections →
+      </a>
+    </div>
+
+    <!-- 🖼️ Right Scrollable Section -->
+    <div class="relative">
+      <!-- Scroll Buttons -->
+      <button id="scrollLeft"
+              class="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-md rounded-full w-10 h-10 flex items-center justify-center text-2xl font-bold hover:bg-gray-100 transition">
+        ‹
+      </button>
+      <button id="scrollRight"
+              class="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-md rounded-full w-10 h-10 flex items-center justify-center text-2xl font-bold hover:bg-gray-100 transition">
+        ›
+      </button>
+
+      <!-- Scroll Container -->
+      <div id="scrollContainer"
+           class="w-full overflow-x-auto scroll-smooth flex flex-nowrap items-start gap-10 px-12 no-scrollbar"
+           style="-webkit-overflow-scrolling: touch;">
+
+        <!-- Items -->
+        <div class="flex-shrink-0 text-center snap-center min-w-[13rem]">
+          <img src="/assets/imgs/ROZMARA.avif"
+               alt="Rozmara"
+               class="w-52 h-52 object-cover rounded-full border border-gray-200 shadow-sm mx-auto">
+          <p class="mt-4 font-semibold text-gray-900 text-lg">Rozmara</p>
+        </div>
+
+        <div class="flex-shrink-0 text-center snap-center min-w-[13rem]">
+          <img src="/assets/imgs/kids.avif"
+               alt="KK Kids"
+               class="w-52 h-52 object-cover rounded-full border border-gray-200 shadow-sm mx-auto">
+          <p class="mt-4 font-semibold text-gray-900 text-lg">KK Kids</p>
+        </div>
+
+        <div class="flex-shrink-0 text-center snap-center min-w-[13rem]">
+          <img src="/assets/imgs/Luxury_Pret.avif"
+               alt="Luxury Pret"
+               class="w-52 h-52 object-cover rounded-full border border-gray-200 shadow-sm mx-auto">
+          <p class="mt-4 font-semibold text-gray-900 text-lg">Luxury Pret</p>
+        </div>
+
+        <div class="flex-shrink-0 text-center snap-center min-w-[13rem]">
+          <img src="/assets/imgs/KK_STUDIO.avif"
+               alt="Accessories"
+               class="w-52 h-52 object-cover rounded-full border border-gray-200 shadow-sm mx-auto">
+          <p class="mt-4 font-semibold text-gray-900 text-lg">Accessories</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Hide scrollbar -->
+<style>
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+</style>
+
+<!-- JS: Button Scroll Logic -->
+<script>
+  const container = document.getElementById('scrollContainer');
+  document.getElementById('scrollLeft').onclick = () => container.scrollBy({ left: -300, behavior: 'smooth' });
+  document.getElementById('scrollRight').onclick = () => container.scrollBy({ left: 300, behavior: 'smooth' });
+</script>
+
+
+
+<!-- shop by collection -->
+ 
+ <section class="max-w-7xl mx-auto px-6 py-12">
+  <h2 class="text-3xl font-bold mb-8 text-center">
+    <div class="para">
+    <p>SHOP BY COLLECTION</p>
+ </div>
+  </h2>
+
+  <!-- 🔹 3 Cards Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+    <!-- 🟨 Card 1 -->
+    <div class="relative group overflow-hidden rounded-xl shadow-lg">
+      <img src="/assets/imgs/Mein_aur_ami.webp" 
+           alt="MEIN AUR AMI" 
+           class="w-full h-[500px] object-cover transform group-hover:scale-105 transition duration-500">
+      <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
+      <div class="absolute bottom-8 left-0 right-0 text-center text-white">
+        <h3 class="text-2xl font-bold tracking-wide mb-3">MEIN AUR AMI</h3>
+        <a href="#" 
+           class="inline-block bg-black px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition">
+          SHOP NOW
+        </a>
+      </div>
+    </div>
+
+    <!-- 🟥 Card 2 -->
+    <div class="relative group overflow-hidden rounded-xl shadow-lg">
+      <img src="/assets/imgs/Rohani.webp" 
+           alt="ROHANI" 
+           class="w-full h-[500px] object-cover transform group-hover:scale-105 transition duration-500">
+      <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
+      <div class="absolute bottom-8 left-0 right-0 text-center text-white">
+        <h3 class="text-2xl font-bold tracking-wide mb-3">ROHANI</h3>
+        <a href="#" 
+           class="inline-block bg-black px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition">
+          SHOP NOW
+        </a>
+      </div>
+    </div>
+
+    <!-- 🩵 Card 3 -->
+    <div class="relative group overflow-hidden rounded-xl shadow-lg">
+      <img src="/assets/imgs/Afsana.webp" 
+           alt="AFSANA’25" 
+           class="w-full h-[500px] object-cover transform group-hover:scale-105 transition duration-500">
+      <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
+      <div class="absolute bottom-8 left-0 right-0 text-center text-white">
+        <h3 class="text-2xl font-bold tracking-wide mb-3">AFSANA’25</h3>
+        <a href="#" 
+           class="inline-block bg-black px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition">
+          SHOP NOW
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <!-- pics 2 -->
+
+
+
+  <section class="max-w-7xl mx-auto px-6 py-12">
+  
+
+  <!-- 🔹 3 Cards Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+    <!-- 🟨 Card 1 -->
+    <div class="relative group overflow-hidden rounded-xl shadow-lg">
+      <img src="/assets/imgs/FESTIVE_1.webp" 
+           alt="MEIN AUR AMI" 
+           class="w-full h-[500px] object-cover transform group-hover:scale-105 transition duration-500">
+      <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
+      <div class="absolute bottom-8 left-0 right-0 text-center text-white">
+        <h3 class="text-2xl font-bold tracking-wide mb-3">FESTIVES</h3>
+        <a href="#" 
+           class="inline-block bg-black px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition">
+          SHOP NOW
+        </a>
+      </div>
+    </div>
+
+    <!-- 🟥 Card 2 -->
+    <div class="relative group overflow-hidden rounded-xl shadow-lg">
+      <img src="/assets/imgs/Riwayat.webp" 
+           alt="ROHANI" 
+           class="w-full h-[500px] object-cover transform group-hover:scale-105 transition duration-500">
+      <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
+      <div class="absolute bottom-8 left-0 right-0 text-center text-white">
+        <h3 class="text-2xl font-bold tracking-wide mb-3">RIWAYAT</h3>
+        <a href="#" 
+           class="inline-block bg-black px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition">
+          SHOP NOW
+        </a>
+      </div>
+    </div>
+
+    <!-- 🩵 Card 3 -->
+    <div class="relative group overflow-hidden rounded-xl shadow-lg">
+      <img src="/assets/imgs/Kahani.webp" 
+           alt="AFSANA’25" 
+           class="w-full h-[500px] object-cover transform group-hover:scale-105 transition duration-500">
+      <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
+      <div class="absolute bottom-8 left-0 right-0 text-center text-white">
+        <h3 class="text-2xl font-bold tracking-wide mb-3">KAHANI’25</h3>
+        <a href="#" 
+           class="inline-block bg-black px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition">
+          SHOP NOW
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</section>
+<!-- Video 1 Section -->
+<section class="max-w-7xl mx-auto px-6 py-16">
+  <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+
+    <!-- Left: Video -->
+    <div class="relative">
+      <video 
+        src="assets/videos/video 1.mp4" 
+        autoplay 
+        muted 
+        loop 
+        playsinline
+        class="w-full h-[550px] object-cover rounded-lg shadow-md">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Right: Text -->
+    <div class="text-center md:text-left">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6 tracking-wide">
+        VASL PRE-WINTER’25
+      </h2>
+      <p class="text-gray-600 text-lg leading-relaxed mb-8">
+        Step into the season with styles that speak for themselves.
+        Our new arrivals bring you fresh cuts, versatile colors, 
+        and effortless elegance made for every moment.
+      </p>
+      <a href="#"
+         class="inline-block bg-black text-white text-sm tracking-wide px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition">
+        SHOP NOW
+      </a>
+    </div>
+
+  </div>
+</section>
+<!-- video 2 -->
+ <section class="max-w-7xl mx-auto px-6 py-16">
+  <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+
+    
+
+    <!-- Right: Text -->
+    <div class="text-center md:text-left">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6 tracking-wide">
+       KHADDAR
+      </h2>
+      <p class="text-gray-600 text-lg leading-relaxed mb-8">
+        Soft, breathable, and winter-ready—our Khaddar collection combines cozy warmth with refined style, crafted to keep you comfortable and chic all day long.
+      </p>
+      <a href="#"
+         class="inline-block bg-black text-white text-sm tracking-wide px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition">
+        SHOP NOW
+      </a>
+    </div>
+
+    <!-- Left: Video -->
+    <div class="relative">
+      <video 
+        src="assets/videos/video 2.mp4" 
+        autoplay 
+        muted 
+        loop 
+        playsinline
+        class="w-full h-[550px] object-cover rounded-lg shadow-md">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- shop by type -->
+
+<section class="max-w-7xl mx-auto px-6 py-12">
+  <h2 class="text-3xl font-bold mb-8 text-center">
+    <div class="para">
+    <p>SHOP BY TYPE</p>
+ </div>
+  </h2>
+
+  <!-- 🔹 3 Cards Grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+    <!-- 🟨 Card 1 -->
+    <div class="relative group overflow-hidden rounded-xl shadow-lg">
+      <img src="/assets/imgs/Prints_1.webp" 
+           alt="MEIN AUR AMI" 
+           class="w-full h-[500px] object-cover transform group-hover:scale-105 transition duration-500">
+      <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
+      <div class="absolute bottom-8 left-0 right-0 text-center text-white">
+        <h3 class="text-2xl font-bold tracking-wide mb-3">Prints</h3>
+        <a href="#" 
+           class="inline-block bg-black px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition">
+          SHOP NOW
+        </a>
+      </div>
+    </div>
+
+    <!-- 🟥 Card 2 -->
+    <div class="relative group overflow-hidden rounded-xl shadow-lg">
+      <img src="/assets/imgs/Matching_Separates_1.webp" 
+           alt="ROHANI" 
+           class="w-full h-[500px] object-cover transform group-hover:scale-105 transition duration-500">
+      <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
+      <div class="absolute bottom-8 left-0 right-0 text-center text-white">
+        <h3 class="text-2xl font-bold tracking-wide mb-3">Matching_Separates</h3>
+        <a href="#" 
+           class="inline-block bg-black px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition">
+          SHOP NOW
+        </a>
+      </div>
+    </div>
+
+    <!-- 🩵 Card 3 -->
+    <div class="relative group overflow-hidden rounded-xl shadow-lg">
+      <img src="/assets/imgs/Embroidered.webp" 
+           alt="AFSANA’25" 
+           class="w-full h-[500px] object-cover transform group-hover:scale-105 transition duration-500">
+      <div class="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition duration-500"></div>
+      <div class="absolute bottom-8 left-0 right-0 text-center text-white">
+        <h3 class="text-2xl font-bold tracking-wide mb-3">Embroidered</h3>
+        <a href="#" 
+           class="inline-block bg-black px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition">
+          SHOP NOW
+        </a>
+      </div>
+    </div>
+
+  </div>
+ 
+
+  <!-- ====== Footer (Full Width, Clean, Edge-to-Edge) ====== -->
+<footer class="bg-light text-muted mt-5 w-100">
+
+  <!-- Social Media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom w-100 px-5">
+    <div class="me-5 d-none d-lg-block">
+      <span>Connect with us on social media:</span>
+    </div>
+    <div>
+      <a href="#" class="me-4 text-reset"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="me-4 text-reset"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="me-4 text-reset"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="me-4 text-reset"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="me-4 text-reset"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer Links -->
+  <section class="w-100 px-5 py-5">
+    <div class="row justify-content-center text-center text-md-start">
+      <!-- Company -->
+      <div class="col-12 col-md-3 col-lg-4 col-xl-3 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">
+          <i class="fas fa-gem me-3"></i>Company Name
+        </h6>
+        <p>
+          A short and stylish description about your brand or store. Perfect place to tell visitors what makes you unique.
+        </p>
+      </div>
+
+      <!-- Products -->
+      <div class="col-6 col-md-2 col-lg-2 col-xl-2 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+        <p><a href="#" class="text-reset">Women</a></p>
+        <p><a href="#" class="text-reset">Men</a></p>
+        <p><a href="#" class="text-reset">Kids</a></p>
+        <p><a href="#" class="text-reset">Accessories</a></p>
+      </div>
+
+      <!-- Useful Links -->
+      <div class="col-6 col-md-3 col-lg-2 col-xl-2 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Useful Links</h6>
+        <p><a href="#" class="text-reset">About Us</a></p>
+        <p><a href="#" class="text-reset">Orders</a></p>
+        <p><a href="#" class="text-reset">Help</a></p>
+        <p><a href="#" class="text-reset">Contact</a></p>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-12 col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+        <p><i class="fas fa-home me-3"></i> Karachi, Pakistan</p>
+        <p><i class="fas fa-envelope me-3"></i> info@yourbrand.com</p>
+        <p><i class="fas fa-phone me-3"></i> +92 300 1234567</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Copyright -->
+  <div class="text-center p-4 w-100" style="background-color: rgba(0,0,0,0.05);">
+    © <span id="year"></span> Your Brand — All Rights Reserved
+  </div>
+</footer>
+
+<script>
+  // Auto-update current year
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<!-- ====== End Footer ====== -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

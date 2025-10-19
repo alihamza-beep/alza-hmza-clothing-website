@@ -1,0 +1,22 @@
+.announcement{
+    background: black;
+  color: white;
+  text-align: center;
+  height: 39px;
+  padding-top: 6px;
+  font-family: initial;
+}
+.para{
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  font-family: initial;
+  font-size: x-large;
+}
+.text{
+text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  font-family: initial;
+  font-size: x-large;
+}
